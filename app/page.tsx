@@ -39,7 +39,7 @@ function Navbar() {
           </div>
           <Suspense
             fallback={
-              <SignInButton forceRedirectUrl="/app">
+              <SignInButton forceRedirectUrl="/home">
                 <Button variant="outline">Sign In</Button>
               </SignInButton>
             }
@@ -57,7 +57,7 @@ async function NavButton() {
 
   if (userId == null) {
     return (
-      <SignInButton forceRedirectUrl="/app">
+      <SignInButton forceRedirectUrl="/home">
         <Button variant="outline">Sign In</Button>
       </SignInButton>
     );
@@ -65,7 +65,7 @@ async function NavButton() {
 
   return (
     <Button asChild>
-      <Link href="/app">Dashboard</Link>
+      <Link href="/home">Dashboard</Link>
     </Button>
   );
 }
@@ -88,7 +88,7 @@ function Hero() {
             the technical edge to land offers faster.
           </p>
           <Button size="lg" className="h-12 px-6 text-base" asChild>
-            <Link href="/app">Get Started for Free</Link>
+            <Link href="/home">Get Started for Free</Link>
           </Button>
         </div>
       </div>
@@ -461,7 +461,7 @@ function Stats() {
             2024
           </p>
           <Button size="lg" className="h-12 px-6" asChild>
-            <Link href="/app">Join thousands of successful job seekers</Link>
+            <Link href="/home">Join thousands of successful job seekers</Link>
           </Button>
         </div>
       </div>
@@ -594,7 +594,7 @@ function Testimonials() {
             Ready to write your own success story?
           </p>
           <Button size="lg" className="h-12 px-8" asChild>
-            <Link href="/app">Start Your Journey Today</Link>
+            <Link href="/home">Start Your Journey Today</Link>
           </Button>
         </div>
       </div>

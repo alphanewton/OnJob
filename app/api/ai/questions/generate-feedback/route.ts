@@ -1,8 +1,6 @@
 import { getQuestion } from "@/features/questions/db";
-import { getQuestionIdTag } from "@/features/questions/dbCache";
 import { getCurrentUser } from "@/lib/getCurrentUser";
 import { generateAiQuestionFeedback } from "@/services/ai/questions";
-import { cacheTag } from "next/dist/server/use-cache/cache-tag";
 import z from "zod";
 
 const schema = z.object({

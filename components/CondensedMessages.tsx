@@ -9,6 +9,7 @@ export function CondensedMessages({
   maxFft = 0,
 }: {
   messages: { isUser: boolean; content: string[] }[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   user: any;
   className?: string;
   maxFft?: number;

@@ -1,5 +1,3 @@
-import { QuestionDifficulty } from "@/types/general_schema";
-
 export function formatExperienceLevel(level: string) {
   switch (level) {
     case "intern":

@@ -30,6 +30,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 
 type JobInfoFormData = z.infer<typeof jobInfoSchema>;
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function JobInfoForm({ jobInfo }: any) {
   const form = useForm<JobInfoFormData>({
     resolver: zodResolver(jobInfoSchema),

@@ -6,12 +6,9 @@ import {
   Brain,
   BrainCircuitIcon,
   FileSlidersIcon,
-  FileText,
-  Search,
   SpeechIcon,
 } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 import { Suspense } from "react";
 import { getCurrentUser } from "@/lib/getCurrentUser";
 import UserAvatar from "@/components/UserAvatar";

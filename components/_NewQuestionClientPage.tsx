@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/resizable";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Textarea } from "@/components/ui/textarea";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { JobInfoTable } from "@/types/appwrite_schema";
 import { questionDifficulties } from "@/types/general_schema";
 import { formatQuestionDifficulty } from "@/lib/formatters";

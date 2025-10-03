@@ -15,7 +15,6 @@ import {
   generateInterviewFeedback,
   getInterview,
 } from "@/features/interviews/db";
-import { getInterviewCount } from "@/features/interviews/permissions";
 import { formatDateTime } from "@/lib/formatters";
 import { getCurrentUser } from "@/lib/getCurrentUser";
 import { fetchChatMessages } from "@/services/hume/api";
@@ -98,6 +97,7 @@ export default async function InterviewPage({
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function Messages({ interview }: { interview: any }) {
   const { user, redirectToSignIn } = await getCurrentUser({ allData: true });
   if (user == null) return redirectToSignIn();

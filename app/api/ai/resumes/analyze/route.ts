@@ -3,7 +3,6 @@ import { getJobInfo } from "@/features/jobInfo/db";
 import { canRunResumeAnalysis } from "@/features/resume/permissions";
 import { getCurrentUser } from "@/lib/getCurrentUser";
 import { analyzeResumeForJob } from "@/services/ai/resumes/ai";
-import { cacheTag } from "next/dist/server/use-cache/cache-tag";
 
 export async function POST(req: Request) {
   const { userId } = await getCurrentUser();

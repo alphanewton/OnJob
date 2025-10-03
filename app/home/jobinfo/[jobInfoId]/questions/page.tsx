@@ -3,7 +3,6 @@ import { getJobInfo } from "@/features/jobInfo/db";
 import { canCreateQuestion } from "@/features/questions/permissions";
 import { getCurrentUser } from "@/lib/getCurrentUser";
 import { Loader2Icon } from "lucide-react";
-import { cacheTag } from "next/dist/server/use-cache/cache-tag";
 import { notFound, redirect } from "next/navigation";
 import { Suspense } from "react";
 

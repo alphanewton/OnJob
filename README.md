@@ -1,37 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 OnJob – AI-Powered Job Interview Preparation Platform
 
-## Getting Started
+**Live Deployment:** [OnJob on Vercel](https://on-job-orpin.vercel.app/)
 
-First, run the development server:
+OnJob is a **comprehensive AI-powered platform** designed to help users prepare for and succeed in job interviews.  
+It provides tools that cover every stage of the job application process — from **resume optimization** to **live AI-driven interview practice**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🎤 **AI-Powered Mock Interviews**  
+  Simulate real interview experiences with a **voice-based AI** that asks relevant questions and provides **real-time feedback** on responses and communication style.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 📄 **Smart Resume Analysis**  
+  Upload resumes for **in-depth AI analysis** with actionable suggestions to optimize for **Applicant Tracking Systems (ATS)** and improve overall quality.
 
-## Learn More
+- 🎯 **Personalized Job Preparation**  
+  Enter details of your **target job role**, and the platform generates **custom interview questions and challenges** tailored to your career goals.
 
-To learn more about Next.js, take a look at the following resources:
+- 💻 **Technical Question Bank**  
+  Practice technical and coding questions with **AI-driven hints and explanations** to help master tough concepts.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔐 **User Authentication & Management**  
+  Secure sign-up, sign-in, and user management powered by **Clerk**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 💳 **Subscription Model**  
+  Includes a **pricing page** with tiered subscription plans for advanced features.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# OnJob
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Language:** TypeScript
+- **Backend:** [Appwrite](https://appwrite.io/)
+- **Authentication:** [Clerk](https://clerk.dev/)
+- **Styling:** Tailwind CSS
+- **UI Components:** [shadcn/ui](https://ui.shadcn.com/), [Radix UI](https://www.radix-ui.com/)
+- **Form Management:** React Hook Form + Zod
+- **AI Services:**
+  - Google AI → Content generation & intelligent feedback
+  - Hume AI → Voice & expression analysis
+
+---
+
+## 🌐 Deployment
+
+The app is deployed on **Vercel** and accessible here:  
+👉 [https://on-job-orpin.vercel.app/](https://on-job-orpin.vercel.app/)
+
+---
+
+## 📌 About
+
+OnJob is more than just a practice tool — it’s a **personal AI career coach** that adapts to your goals, analyzes your resume, sharpens your interview skills, and prepares you to **land your dream job**.
+
+---
